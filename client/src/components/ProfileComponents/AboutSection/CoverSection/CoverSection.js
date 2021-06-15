@@ -1,11 +1,12 @@
 import React from 'react';
+import coverImage from '../../../../images/intricate-explorer-h7L-SRej-sw-unsplash.jpg';
 import * as classes from './CoverSection.module.css';
 
 const CoverSection = props => {
 // dsd
     return (
         <div className={classes.wrapper}>
-            <img src={require('../../../../images/intricate-explorer-h7L-SRej-sw-unsplash.jpg')} alt="" />
+            <img className={classes.coverImage} src={coverImage} alt="" />
             <div className={classes.container}>
                 <div className={classes.imageContainer}>
                     <img src='https://picsum.photos/id/1005/200/300' alt="" />

@@ -1,7 +1,7 @@
 .wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     min-height: 100vh;
 }
 
@@ -42,13 +42,20 @@
 .feedContainer {
     min-width: 70%;
     background-color: lightsalmon;
+    margin: 1.5rem;
+    border-radius: 10px;
 }
+
+/* .coverPictureContainer {
+    m
+} */
 
 .sidebarLeft {
     min-height: 100vh;
+    max-width: 20%;
 }
 
 .sidebarRight {
     background-color: aqua;
-    flex: 1;
+    min-width: 25%;
 }
