@@ -1,0 +1,15 @@
+.wrapper span {
+    font-size: .8rem !important;
+}
+.root {
+    width: 100%;
+    color: #999999;
+}
+
+.nested {
+    padding-left: 2rem;
+}
+
+.subheader {
+    color: #eaeaea !important;
+}

@@ -30,7 +30,7 @@ const UserInfo = props => {
             )
         } else {
             return (
-                <div className={classes.wrapper} style={{ backgroundColor: primary.dark1 }}>
+                <div className={classes.wrapper}>
                     <p onClick={changeSidebarView} className={classes.menuBar}><FontAwesomeIcon icon={faBars} /></p>
                     <div className={classes.top}>
                         <div className={classes.dpcontainer}>

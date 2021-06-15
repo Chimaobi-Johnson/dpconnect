@@ -17,7 +17,7 @@ const Dashboard = props => {
 
     return (
         <div className={classes.wrapper}>
-            <div id="sidebarLeft" className={classes.sidebarLeft}>
+            <div id="sidebarLeft" className={classes.sidebarLeft} style={{ backgroundColor: primary.dark1 }}>
                 <UserInfo />
             </div>
             <div className={classes.mainContent}>
@@ -42,17 +42,17 @@ const Dashboard = props => {
                         </div>
                         <div className={classes.sectionContainer}>
                           <div className={classes.leftSection}>
-                              <div className={classes.aboutSection}>
+                              <div className={classes.aboutSection} style={{ backgroundColor: primary.dark1 }}>
                                 <AboutSection />
                               </div>
-                              <div className={classes.friendsBox}>
+                              <div className={classes.friendsBox} style={{ backgroundColor: primary.dark1 }}>
                                 <FriendsBox />
                               </div>
                           </div>
                           <div className={classes.rightSection}></div>
                         </div>
                     </div>
-                    <div className={classes.sidebarRight}>
+                    <div className={classes.sidebarRight} style={{ backgroundColor: primary.dark1 }}>
                         <UserCategories />
                     </div>
                 </div>
