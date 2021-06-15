@@ -1,0 +1,8 @@
+.wrapper {
+    background-image: url('../../../images/clarke-sanders-HOQpBGL95Z8-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem 1rem;
+    transition: all .3s;
+}
+
+.wrapper:hover {
+    /* background-color: #2283a0; */
+    background-color: #ff5722;
+    cursor: pointer;
+}
+
+.wrapper:hover > .messageContent > .messageCount {
+    color: #fff;
+}
+
+.messageContent {
+    padding: 0 .5rem;
+    position: relative;
+}
+
+.messageContent h4 {
+    /* color: gold; */
+    padding: 0;
+    margin: 0;
+    font-size: .8rem;
+}
+
+.messageContent h4:hover {
+    /* color: lightblue; */
+}
+
+.messageContent p {
+    font-size: .7rem;
+}
+
+/* .messageCount {
+    background-color: lightcoral;
+
+    text-align: center;
+} */
+
+.messageCount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    font-size: .7rem;
+    text-align: center;
+    background-color: #ff5722;
+    color: #000;
+
+}

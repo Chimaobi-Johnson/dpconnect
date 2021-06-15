@@ -1,0 +1,90 @@
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.wrapperClosed {
+    height: 100vh;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.menuBar {
+    position: absolute;
+    top: 0;
+    left: 1rem;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.menuBarClosed {
+    /* position: absolute; */
+    /* top: 0;
+    left: 1rem; */
+    cursor: pointer;
+    z-index: 100;
+}
+
+.dpcontainer {
+    text-align: center;
+    border-bottom: 1px solid #363940;
+    margin: 0 1rem;
+    transition: display .5s;
+    position: relative;
+}
+
+
+.dpcontainer img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 3rem;
+    border: 2px solid aqua;
+    border-radius: 100%;
+}
+
+.dpcontainer p {
+    margin-bottom: 1rem;
+}
+
+.dpcontainerClosed {
+    text-align: left;
+    transition: display .5s;
+    position: relative;
+}
+
+.dpcontainerClosed img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 3rem;
+    border: 2px solid aqua;
+    border-radius: 100%;
+}
+
+.searchbarContainer {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #363940; */
+}
+
+.searchbarContainer input {
+    width: 100%;
+}
+
+.searchbarContainer p {
+    cursor: pointer;
+}
+
+.searchbarContainer p:hover {
+    color: lightgreen;
+}
+
+.content {
+    /* overflow-y: scroll; */
+}
+
+.contentList {
+    list-style: none;
+    padding-left: 0;
+}

@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    background-color: red;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topNav ul {
+    list-style: none;
+    display: flex;
+}
+
+.topNav ul li a {
+    text-decoration: none;
+    padding: .8rem 1rem;
+}
+
+.searchContainer button {
+    margin-left: .8rem;
+    padding: 8px;
+    min-width: 0 !important;
+    border-radius: 100%;
+}
+
+.feedContainer {
+    min-width: 70%;
+    background-color: lightsalmon;
+}
+
+.sidebarLeft {
+    min-height: 100vh;
+}
+
+.sidebarRight {
+    background-color: aqua;
+    flex: 1;
+}
