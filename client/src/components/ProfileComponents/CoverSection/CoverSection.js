@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../../../images/intricate-explorer-h7L-SRej-sw-unsplash.jpg';
+import coverImage from '../../../images/intricate-explorer-h7L-SRej-sw-unsplash.jpg';
 import * as classes from './CoverSection.module.css';
 
 const CoverSection = props => {

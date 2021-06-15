@@ -1,0 +1,20 @@
+.wrapper {
+    position: relative;
+    padding: .8rem 1.5rem;
+}
+
+.wrapper h4 {
+    margin: 10px 0;
+}
+
+.options {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+
+.addButton {
+    margin-top: 1rem;
+    color: #eaeaea;
+    text-transform: none;
+}

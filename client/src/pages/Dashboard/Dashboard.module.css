@@ -46,10 +46,6 @@
     border-radius: 10px;
 }
 
-/* .coverPictureContainer {
-    m
-} */
-
 .sidebarLeft {
     min-height: 100vh;
     max-width: 20%;
@@ -59,3 +55,35 @@
     background-color: aqua;
     min-width: 25%;
 }
+
+
+
+
+.coverPictureContainer {
+    margin-bottom: .8rem;
+}
+
+.sectionContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.rightSection {
+    flex-basis: 65%;
+}
+
+.aboutSection {
+    border-radius: 10px;
+    background-color: darkgreen;
+    margin-bottom: .8rem;
+}
+
+.friendsBox {
+    border-radius: 10px;
+    background-color: rgb(23, 34, 23);
+}
+
+/* .leftSection {
+
+} */

@@ -3,13 +3,15 @@ import UserCategories from '../../components/Sidebar/UserCategories/UserCategori
 import UserInfo from '../../components/Sidebar/UserInfo/UserInfo';
 import { primary } from '../../theme/colors';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 import * as classes from './Dashboard.module.css';
 import { Link } from 'react-router-dom';
 import CustomInput from '../../components/Form/CustomInput/CustomInput';
 import { Button } from '@material-ui/core';
-import CoverSection from '../../components/ProfileComponents/AboutSection/CoverSection/CoverSection';
+import CoverSection from '../../components/ProfileComponents/CoverSection/CoverSection';
+import AboutSection from '../../components/ProfileComponents/AboutSection/AboutSection';
+import FriendsBox from '../../components/ProfileComponents/FriendsBox/FriendsBox';
 
 const Dashboard = props => {
 
@@ -39,7 +41,14 @@ const Dashboard = props => {
                             <CoverSection />
                         </div>
                         <div className={classes.sectionContainer}>
-                          <div className={classes.leftSection}></div>
+                          <div className={classes.leftSection}>
+                              <div className={classes.aboutSection}>
+                                <AboutSection />
+                              </div>
+                              <div className={classes.friendsBox}>
+                                <FriendsBox />
+                              </div>
+                          </div>
                           <div className={classes.rightSection}></div>
                         </div>
                     </div>

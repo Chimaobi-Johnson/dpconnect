@@ -1,0 +1,14 @@
+.wrapper {
+    padding: 0 1rem;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.heading p {
+    text-transform: none;
+}
